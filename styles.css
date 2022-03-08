@@ -1,3 +1,45 @@
 *{
     margin: 0;
 }
+/* artist section */
+.artists{
+    background-color: rgb(169, 132, 212);
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.artists h2{
+    font-size: 40px;
+    display: -webkit-flex;
+    justify-content: center;
+}
+.artists h3{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.card {
+    display: flexbox;
+    justify-content: center;
+    height: 35vh;
+    width: 30%;
+    background-color:rgb(204, 215, 112);
+    text-align: center;
+    border: solid 3px;
+    margin: 10px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    
+}
+/* row */
+.row {
+    display: -webkit-flex;
+    display: flex;
+    justify-content:center;
+    
+  }
+  img{
+      height: 70%;
+      width: 90%;
+      margin-top: 5%;
+  }
