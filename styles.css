@@ -1,14 +1,25 @@
 
+
 *{
     margin: 0;
 }
 
 .heroimg {
     background-image: url(bg.jpeg);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heroimg {
+    background-image: url(/img/bg.jpeg);
     max-width: 100%;
     height: 300px;
     background-position: center;
     background-size: 100% 200%;
+
     text-align: center;
 }
 thead,
@@ -45,24 +56,30 @@ td {
 }
 
 
->Artist<hr></div>
-          <div class="grid lineup ">Vendor<hr></div>
-          <div class="grid lineup">Activity<hr></div>
-          <div class="grid">Daniel Cesar</div>
-          <div class="grid">Pizza</div>
-          <div class="grid">Ferris Wheel</div>  
-          <div class="grid">Doja Cat</div>
-          <div class="grid">Tacos</div>
-          <div class="grid"> The Do Lab</div>
-          <div class="grid">21 Savage</div>
-          <div class="grid">Seafood</div>  
-          <div class="grid">The Yuma Tent</div>
-          <div class="grid">Billie Eilish</div>
-          <div class="grid">BBQ</div>
-          <div class="grid">Art Exhibits</div>  
-          <div class="grid">Pink Sweat$</div>
-          <div class="grid">Sweet Shop</div>
-          <div class="grid">Fireworks</div>
-          <div class="grid">Baby Keem</div>  
-          <div class="grid"><img src="coachella.png"></div>
-          <div class="grid">Biergardens</div>
+
+.main_body {
+    background-color: rgb(204, 215, 112);
+    padding: 20px;
+}
+
+.hero_text {
+    margin-bottom: 10px;
+}
+
+.main_divs {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-div1 {
+    background-color: orange;
+}
+
+.main-div2 {
+    background-color: red;
+}
+
+.main-div3 {
+    background-color: green;
+}
+
