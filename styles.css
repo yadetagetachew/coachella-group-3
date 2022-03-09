@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+.heroimg {
+    background-image: url(/img/bg.jpeg);
+    max-width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: 100% 200%;
+    text-align: center
+}
+
+
 .main_body {
     background-color: rgb(204, 215, 112);
     padding: 20px;
