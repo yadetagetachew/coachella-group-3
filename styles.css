@@ -1,5 +1,7 @@
-*{
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .heroimg {
@@ -8,5 +10,32 @@
     height: 300px;
     background-position: center;
     background-size: 100% 200%;
-    text-align: center;
+    text-align: center
+}
+
+
+.main_body {
+    background-color: rgb(204, 215, 112);
+    padding: 20px;
+}
+
+.hero_text {
+    margin-bottom: 10px;
+}
+
+.main_divs {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-div1 {
+    background-color: orange;
+}
+
+.main-div2 {
+    background-color: red;
+}
+
+.main-div3 {
+    background-color: green;
 }
