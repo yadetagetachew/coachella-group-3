@@ -1,167 +1,189 @@
-
-
-*{
-    margin: 0;
-}
-
-/* artist section */
-.artists{
-    background-color: rgb(240, 128, 128);
-
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.artists h2{
-    font-size: 40px;
-    display: -webkit-flex;
-    justify-content: center;
-}
-.artists h3{
-    font-size: 20px;
-    padding-top: 10px;
-}
-.card {
-    display: flexbox;
-    justify-content: center;
-    height: 35vh;
-    width: 30%;
-    background-color:rgb(204, 215, 112);
-    text-align: center;
-    border: solid 3px;
-    margin: 10px;
-    margin-bottom: 50px;
-    margin-top: 40px;
+    * {
+        margin: 0;
+    }
+    /* artist section */
     
-}
-/* row */
-.row {
-    display: -webkit-flex;
-    display: flex;
-    justify-content:center;
+    .artists {
+        background-color: rgb(240, 128, 128);
+        margin-left: 10%;
+        margin-right: 10%;
+    }
     
-  }
-  img{
-      height: 70%;
-      width: 90%;
-      margin-top: 5%;
-  }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.heroimg {
-    background-image: url(/img/bg.jpeg);
-    max-width: 100%;
-    height: 300px;
-    background-position: center;
-    background-size: 100% 200%;
-    text-align: center;
-}
-/* artist section */
-.artists{
-    background-color: rgb(240, 128, 128);
-
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.artists h2{
-    font-size: 40px;
-    display: -webkit-flex;
-    justify-content: center;
-}
-.artists h3{
-    font-size: 20px;
-    padding-top: 10px;
-}
-.card {
-    display: flexbox;
-    justify-content: center;
-    height: 35vh;
-    width: 30%;
-    background-color:rgb(204, 215, 112);
-    text-align: center;
-    border: solid 3px;
-    margin: 10px;
-    margin-bottom: 50px;
-    margin-top: 40px;
+    .artists h2 {
+        font-size: 40px;
+        display: -webkit-flex;
+        justify-content: center;
+    }
     
-}
-.row {
-    display: -webkit-flex;
-    display: flex;
-    justify-content:center;
+    .artists h3 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
     
-  }
-  img{
-      height: 70%;
-      width: 90%;
-      margin-top: 5%;
-  }
-/* artist ends */
-thead,
-tfoot {
-    background-color: #3f87a6;
-    color: #fff;
-}
-
-tbody {
-    background-color: #e4f0f5;
-}
-
-caption {
-    padding: 10px;
-    caption-side: bottom;
-}
-
-table {
-    border-collapse: collapse;
-    border: 2px solid rgb(200, 200, 200);
-    letter-spacing: 1px;
-    font-family: sans-serif;
-    font-size: .8rem;
-}
-
-td,
-th {
-    border: 1px solid rgb(190, 190, 190);
-    padding: 5px 10px;
-}
-
-td {
-    text-align: center;
-}
-
-
-
-.main_body {
-    background-color: rgb(204, 215, 112);
-    padding: 20px;
-}
-
-.hero_text {
-    margin-bottom: 10px;
-}
-
-.main_divs {
-    display: flex;
-    flex-direction: column;
-}
-
-.main-div1 {
-    background-color: orange;
-}
-
-.main-div2 {
-    background-color: red;
-}
-
-.main-div3 {
-    background-color: green;
-}
-
-
+    .card {
+        display: flexbox;
+        justify-content: center;
+        height: 35vh;
+        width: 30%;
+        background-color: rgb(204, 215, 112);
+        text-align: center;
+        border: solid 3px;
+        margin: 10px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    /* row */
+    
+    .row {
+        display: -webkit-flex;
+        display: flex;
+        justify-content: center;
+    }
+    
+    img {
+        height: 70%;
+        width: 90%;
+        margin-top: 5%;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .heroimg {
+        background-image: url(/img/bg.jpeg);
+        max-width: 100%;
+        height: 300px;
+        background-position: center;
+        background-size: 100% 200%;
+        text-align: center;
+    }
+    /* artist section */
+    
+    .artists {
+        background-color: rgb(240, 128, 128);
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .artists h2 {
+        font-size: 40px;
+        display: -webkit-flex;
+        justify-content: center;
+    }
+    
+    .artists h3 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    
+    .card {
+        display: flexbox;
+        justify-content: center;
+        height: 35vh;
+        width: 30%;
+        background-color: rgb(204, 215, 112);
+        text-align: center;
+        border: solid 3px;
+        margin: 10px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    
+    .row {
+        display: -webkit-flex;
+        display: flex;
+        justify-content: center;
+    }
+    
+    img {
+        height: 70%;
+        width: 90%;
+        margin-top: 5%;
+    }
+    /* artist ends */
+    
+    thead,
+    tfoot {
+        background-color: #3f87a6;
+        color: #fff;
+    }
+    
+    tbody {
+        background-color: #e4f0f5;
+    }
+    
+    caption {
+        padding: 10px;
+        caption-side: bottom;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border: 2px solid rgb(200, 200, 200);
+        letter-spacing: 1px;
+        font-family: sans-serif;
+        font-size: .8rem;
+    }
+    
+    td,
+    th {
+        border: 1px solid rgb(190, 190, 190);
+        padding: 5px 10px;
+    }
+    
+    td {
+        text-align: center;
+    }
+    
+    .main_body {
+        background-color: rgb(204, 215, 112);
+        padding: 20px;
+    }
+    
+    .hero_text {
+        margin-bottom: 10px;
+    }
+    
+    .main_divs {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main-div1 {
+        background-color: orange;
+    }
+    
+    .main-div2 {
+        background-color: red;
+    }
+    
+    .main-div3 {
+        background-color: green;
+    }
+    
+    .footer_container {
+        background-color: rgb(240, 128, 128);
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 70vh;
+        display: flex;
+    }
+    
+    .footer_child1 h2 {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    hr {
+        margin-bottom: 10px;
+    }
+    
+    li {
+        list-style-type: none;
+        line-height: 2.0;
+        text-align: center;
+    }
