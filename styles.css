@@ -4,9 +4,49 @@
     margin: 0;
 }
 
-.heroimg {
-    background-image: url(bg.jpeg);
+/* artist section */
+.artists{
+    background-color: rgb(240, 128, 128);
+
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
+.artists h2{
+    font-size: 40px;
+    display: -webkit-flex;
+    justify-content: center;
+}
+.artists h3{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.card {
+    display: flexbox;
+    justify-content: center;
+    height: 35vh;
+    width: 30%;
+    background-color:rgb(204, 215, 112);
+    text-align: center;
+    border: solid 3px;
+    margin: 10px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    
+}
+/* row */
+.row {
+    display: -webkit-flex;
+    display: flex;
+    justify-content:center;
+    
+  }
+  img{
+      height: 70%;
+      width: 90%;
+      margin-top: 5%;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -19,9 +59,50 @@
     height: 300px;
     background-position: center;
     background-size: 100% 200%;
-
     text-align: center;
 }
+/* artist section */
+.artists{
+    background-color: rgb(240, 128, 128);
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.artists h2{
+    font-size: 40px;
+    display: -webkit-flex;
+    justify-content: center;
+}
+.artists h3{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.card {
+    display: flexbox;
+    justify-content: center;
+    height: 35vh;
+    width: 30%;
+    background-color:rgb(204, 215, 112);
+    text-align: center;
+    border: solid 3px;
+    margin: 10px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    
+}
+.row {
+    display: -webkit-flex;
+    display: flex;
+    justify-content:center;
+    
+  }
+  img{
+      height: 70%;
+      width: 90%;
+      margin-top: 5%;
+  }
+/* artist ends */
 thead,
 tfoot {
     background-color: #3f87a6;
@@ -82,4 +163,5 @@ td {
 .main-div3 {
     background-color: green;
 }
+
 
